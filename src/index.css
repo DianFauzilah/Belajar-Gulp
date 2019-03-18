@@ -1,0 +1,392 @@
+.navbar{ background:#00ccff;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}               
+
+.nav-link:hover{ background: #f4f4f4; color: #00a3cc; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#007bff!important
+}
+/*header style*/
+.header{
+ background-image: url('../img/Fauzilah.JPG');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ height: 120vh;
+ text-align: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 130%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(250, 250, 250, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+ color:#00a3cc ;
+ 
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #00a3cc;
+ background:#00ccff;
+ color:#fff;
+}
+
+
+.about h1{
+ color:#00a3cc;
+ margin: 2em;
+}
+.about img{
+ height: 398px;
+    width: 400px;
+    border-radius: 50%;
+	object-fit: cover;
+	object-position: left;
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 5em;
+ border-left:4px solid #10828C;
+ 
+}
+
+.img-fluid{
+	border-radius: 80%;
+	height: 70%;
+	width: 100%;
+}
+
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+
+element {
+}
+.timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+}
+.timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+}
+.timeline > li .timeline-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+}
+.timeline > li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 143px;
+    height: 138px;
+    margin-left: -130px;
+    text-align: center;
+    color: #fff;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #00ccff;;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.timeline {
+    list-style: none;
+}
+
+/*Portfolio*/
+.portfolio{
+ margin: 4em 0;
+ position: relative; 
+}
+.portfolio h1{
+ color:#00a3cc;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 15rem;
+  width: 180%;
+  margin: 1em;
+  border-radius: 0;
+  margin-top: 50px;
+}
+
+.{
+ margin: 4em 0;
+ position: relative;  
+}
+.portfolio h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.portfolio .item{
+ position: relative;
+}
+.portfolio .des{
+ background: #F97300;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ 
+
+}
+
+.portfolio .item:hover .des{
+ height: 80%;
+ background:#f973007d;
+ position: absolute;
+ width: 95%;
+ padding: 5em;
+ top: 0;
+ border-bottom-left-radius: 0;
+ transition:.1s ease-in-out;
+ margin-top: 50px;
+}
+
+.blog{
+ margin: 4em 0;
+ position: relative; 
+}
+.blog h1{
+ color:#00a3cc;
+ margin: 2em; 
+}
+.blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+ width: 99%;
+ height: 19em;
+ object-fit: cover;
+ object-position: center;
+}
+.blog .card-title{
+ color:#00a3cc;
+  
+}
+.blog .card-body{
+ padding: 1em;
+}
+
+#sembarang{
+    max-width: 100%;
+    height: 195px;
+}
+
+
+* { margin: 0; padding: 0; }
+body { font-size: 62.5%; font-family: Georgia, serif; background: url(images/page-bg.jpg); }
+.clear { clear: both; }
+fieldset { border: none; }
+
+#page-wrap {
+	width: 956px;
+	margin: 0 auto;
+	background: url(images/form-bg.jpg) top center no-repeat;
+	min-height: 600px;
+}
+form {
+	background-color: #00ccff;
+	padding: 83px 0 0 76px;
+}
+h1 {
+	text-align: center;
+	padding-top: 200px;
+}
+
+/* #commentForm {
+	display: block;
+    width: 100%;
+}
+
+#formLeft {
+	
+	width: 320px;
+	float: left;
+	}
+	#formLeft input {
+		width: 73vh;
+		height: 49px;
+		margin: 0 0 20px 0;
+		border: none;
+		text-align: left;
+		background: none;
+		margin: 7px 0 0 0px;
+		font-size: 1.4em;
+	}
+	#formLeft .input-bg {
+		background: url(img/111.jpg) bottom left no-repeat #ffff;
+		height: 49px;
+		width: 73vh;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	#formLeft .active {
+		background: url(images/form-sm-bg.jpg) top left no-repeat transparent;
+	}
+#formRight {
+	width: 360px;
+	float: right;
+	padding-right: 64px;
+	}
+	#formRight textarea {
+		width: 398px;
+		height: 237px;
+		display: block;
+		border: none;
+		background: none;
+		margin: 0 0 0 0px;
+		padding: 13px 0 13px 0;
+		font-family: Helvetica, sans-serif;
+		font-size: 1.3em;
+	}
+	#formRight .message-bg {
+		background: url(images/message-bg.jpg) bottom left no-repeat #ffff;
+		height: 238px;
+		width: 40vh;
+	}
+	#formRight .active {
+		background: url(images/message-bg.jpg) top left no-repeat transparent;
+	} 
+label {
+	display: block;
+	font-size: 1.3em;
+	text-indent: 10px;
+	font-weight: bold;
+}
+label.error {
+	position: absolute;
+	top: -16px;
+	right: 49px;
+	padding: 3px;
+	color: #da3939;
+	font-size: 1.0em;
+	text-align: right;
+	font-style: italic;
+	font-weight: normal;
+}
+input.submit-button {
+	float: right;
+	padding-right: 31px;
+	width: 220px;
+	height: 80px;
+} */
+
+element {
+}
+.list-inline-item {
+    display: inline-block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.list-inline {
+    list-style: none;
+}
+footer {
+    text-align: center;
+}
+
+
+.section-header span {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.07);
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 68px;
+  text-align: center;
+  text-decoration: none;
+  margin: -1px 104px;
+  display: flex;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
+
