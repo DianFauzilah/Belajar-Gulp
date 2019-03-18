@@ -13,7 +13,7 @@ gulp.task('minify-css', function() {
     .pipe(gulpMinifyCss({
       compatibility: 'ie8'
     }))
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 // gulp.task('minify-css', done=> {
@@ -34,7 +34,7 @@ gulp.task('minify-js', function() {
     ])
     .pipe(gulpConcat('bundle.js'))
     .pipe(gulpUglify())
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist/js'));
 });
 
 var gulp = require('gulp');
